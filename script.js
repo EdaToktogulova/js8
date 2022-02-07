@@ -52,14 +52,14 @@ Exercise1.prepend('prepend');
 Exercise1.append('append');
 Exercise1.after('after');
 
-// let button = document.createElement ('button');
-// exercisesElement.prepend(button);
-// button.textContent = "Lauch Meeting";
-// button.style.padding = "10px 25px";
-// button.style.color = "white";
-// button.style.borderRadius = "10px";
-// button.style.backgroundColor = "blue";
-// button.style.border = "none";
+let button = document.createElement ('button');
+exercisesElement.prepend(button);
+button.textContent = "Lauch Meeting";
+button.style.padding = "10px 25px";
+button.style.color = "white";
+button.style.borderRadius = "10px";
+button.style.backgroundColor = "blue";
+button.style.border = "none";
 
 let shoppingList = ['Apple', 'Banana', 'Pinapple'];
 // Create UL
@@ -72,6 +72,34 @@ listElement.append(listItemElement);
 listItemElement.textContent = shoppingList[i];
 }
 
+// How to copy 
+let button2 = button.cloneNode ();
+button2.textContent = "Hello";
+exercisesElement.prepend(button2);
 
+let button3 = button.cloneNode ();
+button3.textContent = "Hello";
+exercisesElement.prepend(button3);
 
+let button4 = button.cloneNode ();
+button4.textContent = "Hello";
+exercisesElement.prepend(button4);
+
+let button5 = button.cloneNode ();
+button5.textContent = "Hello";
+exercisesElement.prepend(button5);
+
+let button6 = button.cloneNode ();
+button6.textContent = "Hello";
+exercisesElement.prepend(button6);
+
+// How to remove
+button2.remove();
+
+let listElement = document.createElement('table');
+for (let i = 0; i < shoppingList.length; i++) {
+   let listElement = document.createElement('tr');
+listElement.append(listItemElement);
+listItemElement.textContent = shoppingList[i];
+}
 
