@@ -24,4 +24,4 @@ exercisesElement.append(h1Element); // attach
 
 let h2Elemet = document.createElement ('h2'); 
 h2Elemet.textContent = "H2 header";
-exercisesElement.append(h2Elemet);
+exercisesElement.append(h2Elemet); // attach
