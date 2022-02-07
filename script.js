@@ -52,12 +52,20 @@ Exercise1.prepend('prepend');
 Exercise1.append('append');
 Exercise1.after('after');
 
-let button = document.createElement ('button');
-exercisesElement.prepend(button);
-button.textContent = "Lauch Meeting";
-button.style.padding = "10px 25px";
-button.style.color = "white";
-button.style.borderRadius = "10px";
-button.style.backgroundColor = "blue";
-button.style.border = "none";
+// let button = document.createElement ('button');
+// exercisesElement.prepend(button);
+// button.textContent = "Lauch Meeting";
+// button.style.padding = "10px 25px";
+// button.style.color = "white";
+// button.style.borderRadius = "10px";
+// button.style.backgroundColor = "blue";
+// button.style.border = "none";
+
+let shoppingList = ['Apple', 'Banana', 'Pinapple'];
+
+let ulElement = document.createElement ('ul');
+exercisesElement.prepend(li);
+li.textContent = "Apple";
+li
+
 
