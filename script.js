@@ -62,10 +62,16 @@ Exercise1.after('after');
 // button.style.border = "none";
 
 let shoppingList = ['Apple', 'Banana', 'Pinapple'];
+// Create UL
+let listElement = document.createElement ('ul');
+exercisesElement.prepend(ul);
+// Create LI
+for (let i = 0; i < shoppingList.length; i++) {
+   let listElement = document.createElement('li');
+listElement.append(listItemElement);
+listItemElement.textContent = shoppingList[i];
+}
 
-let ulElement = document.createElement ('ul');
-exercisesElement.prepend(li);
-li.textContent = "Apple";
-li
+
 
 
