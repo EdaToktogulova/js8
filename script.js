@@ -52,9 +52,12 @@ Exercise1.prepend('prepend');
 Exercise1.append('append');
 Exercise1.after('after');
 
-let buttonElement = document.createSelector ('button');
+let button = document.createElement ('button');
 exercisesElement.prepend(button);
 button.textContent = "Lauch Meeting";
 button.style.padding = "10px 25px";
-button.style.
+button.style.color = "white";
+button.style.borderRadius = "10px";
+button.style.backgroundColor = "blue";
+button.style.border = "none";
 
