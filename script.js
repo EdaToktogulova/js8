@@ -72,6 +72,16 @@ listElement.append(listItemElement);
 listItemElement.textContent = shoppingList[i];
 }
 
+//Create table
+let table = document.createElement('table');
+exercisesElement.prepend(table);
+// Create LI
+for (let i = 0; i < shoppingList.length; i++) {
+   let listElement = document.createElement('li');
+listElement.append(listItemElement);
+listItemElement.textContent = shoppingList[i];
+}
+
 // How to copy 
 let button2 = button.cloneNode ();
 button2.textContent = "Hello";
@@ -103,3 +113,7 @@ listElement.append(listItemElement);
 listItemElement.textContent = shoppingList[i];
 }
 
+// 0-255 - Math.random() * 255
+
+let clolorful = document.createElement('div');
+clolorful.textContent = "HELLO";
